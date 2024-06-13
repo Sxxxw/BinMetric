@@ -24,7 +24,9 @@ samples = [
 write_samples(samples)
 ```
 
-## queryllm
+## Queryllm
+
+We provide here scripts to infer locally deployed LLMs and call ChatGPT via API.
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python infer_llama.py
@@ -32,8 +34,8 @@ CUDA_VISIBLE_DEVICES=0 python infer_llama.py
 
 ## Evaluation
 
-```bash
-python evaluation.py --prediction_file ./predict_data.json --problem_file ./queryllm/Llama-2-7b-chat-hf_prediction.json
+```bash 
+python evaluation.py --prediction_file ./queryllm/Llama-2-7b-chat-hf_prediction.json --problem_file ./problem_data.json
 ```
 
 ## Workflow
