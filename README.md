@@ -38,5 +38,5 @@ python evaluation.py --prediction_file ./predict_data.json --problem_file ./quer
 
 ## Workflow
 
-![](imgs/overview.pdf)
+![](imgs/overview.jpg)
 
