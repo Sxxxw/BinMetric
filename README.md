@@ -7,9 +7,8 @@ pull docker image
 docker pull dockcross/linux-x64:latest
 ```
 install pypi deps
-```text
-codebleu==0.4.0
-rouge_score==0.1.2
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage for users
@@ -24,10 +23,8 @@ samples = [
 write_samples(samples)
 ```
 
-## Queryllm
-
-We provide here scripts to infer locally deployed LLMs and call ChatGPT via API.
-
+## Inference
+We provide here scripts to infer locally deployed LLMs and call ChatGPT/GPT-4 via API.
 ```bash
 CUDA_VISIBLE_DEVICES=0 python infer_llama.py
 ```
