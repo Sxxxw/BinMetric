@@ -23,6 +23,21 @@ samples = [
 write_samples(samples)
 ```
 
+## Data Preprocess
+
+1. Extract function name and address from binaries
+
+```bash
+python ext_idb_and_nameaddr.py
+```
+
+2. Extract multiple information of function from binaries
+```bash
+python ext_func.py
+```
+
+
+
 ## Inference
 We provide here scripts to infer locally deployed LLMs and call ChatGPT/GPT-4 via API.
 ```bash
