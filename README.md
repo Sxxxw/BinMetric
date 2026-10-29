@@ -54,3 +54,22 @@ python evaluation.py --prediction_file ./queryllm/Llama-2-7b-chat-hf_prediction.
 
 ![](imgs/overview.jpg)
 
+
+## License
+
+- Code: [MIT](LICENSE)
+- Benchmark data authored by us: [CC BY 4.0](DATA_LICENSE.md)
+- Material from the 20 source projects remains under its original licenses: see [DATA_LICENSE.md](DATA_LICENSE.md)
+
+## Citation
+
+```bibtex
+@inproceedings{shang2025binmetric,
+  title     = {BinMetric: A Comprehensive Binary Code Analysis Benchmark for Large Language Models},
+  author    = {Shang, Xiuwei and Chen, Guoqiang and Cheng, Shaoyin and others},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI-25)},
+  pages     = {7715--7723},
+  year      = {2025}
+}
+```
+
